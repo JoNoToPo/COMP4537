@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Memory Game</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+    All user-facing text below is populated by JavaScript from
+    lang/messages/en/user.js at runtime; no text is hard-coded here.
+-->
+<div id="controls" class="controls">
+    <label id="numButtonsLabel" for="numButtonsInput" class="label"></label>
+    <input type="number" id="numButtonsInput" class="num-input" min="3" max="7">
+    <button id="goButton" type="button" class="go-button"></button>
+</div>
+
+<div id="errorMessage" class="error-message" role="alert"></div>
+<div id="statusMessage" class="status-message" role="status"></div>
+
+<div id="buttonContainer" class="button-container"></div>
+
+<script type="module" src="js/script.js"></script>
+</body>
+</html>

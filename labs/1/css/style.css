@@ -1,0 +1,97 @@
+/* css/style.css
+   All presentational styling lives here (no inline styles in the HTML,
+   and only dynamic/computed values such as a button's random background
+   color and its random on-screen position are set from JavaScript). */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1.5em;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f7;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    margin-bottom: 1em;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.num-input {
+    width: 4em;
+    padding: 0.3em;
+    font-size: 1em;
+}
+
+.go-button {
+    padding: 0.4em 1.4em;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.3em;
+    background-color: #2d6cdf;
+    color: #ffffff;
+}
+
+.go-button:hover {
+    background-color: #1f4fb0;
+}
+
+.error-message {
+    min-height: 1.4em;
+    margin-bottom: 0.5em;
+    color: #b00020;
+    font-weight: bold;
+}
+
+.status-message {
+    min-height: 1.4em;
+    margin-bottom: 1em;
+    color: #1a6b1a;
+    font-weight: bold;
+}
+
+.button-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+}
+
+.memory-button {
+    width: 10em;
+    height: 5em;
+    border: none;
+    border-radius: 0.4em;
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    user-select: none;
+}
+
+.memory-button.scrambled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: top 0.4s ease, left 0.4s ease;
+    z-index: 10;
+}
+
+.memory-button.clickable {
+    cursor: pointer;
+}
