@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Writer</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+    All user-facing text below is populated by JavaScript from
+    lang/messages/en/user.js at runtime; no text is hard-coded here.
+    Notes are created dynamically (one NoteItem instance per note) -
+    nothing here is a fixed, pre-built set of textareas.
+-->
+<div id="lastSavedDisplay" class="status-corner"></div>
+
+<div id="notesContainer" class="notes-container"></div>
+
+<button id="addButton" type="button" class="add-button"></button>
+
+<div>
+    <a id="backButton" href="index.html" class="back-button"></a>
+</div>
+
+<script type="module" src="js/writerMain.js"></script>
+</body>
+</html>
