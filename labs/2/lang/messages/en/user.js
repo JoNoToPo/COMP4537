@@ -2,9 +2,6 @@
 // Every string the user can see anywhere in this app is declared exactly
 // once here and imported by the classes that need it. No other file in
 // this project contains a user-facing string literal.
-//
-// IMPORTANT: replace STUDENT_NAME below with your actual name / student
-// number before submitting, so the TA can identify the assignment.
 
 export const USER_STRINGS = {
     STUDENT_NAME: "Student Name: Jonathan Engelhard",
