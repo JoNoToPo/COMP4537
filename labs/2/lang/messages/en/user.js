@@ -7,7 +7,7 @@
 // number before submitting, so the TA can identify the assignment.
 
 export const USER_STRINGS = {
-    STUDENT_NAME: "Student Name: <replace me>",
+    STUDENT_NAME: "Student Name: Jonathan Engelhard",
     PAGE_TITLE_INDEX: "Lab 2: JSON, Object Constructor, localStorage",
     PAGE_TITLE_WRITER: "Lab 2 - Writer",
     PAGE_TITLE_READER: "Lab 2 - Reader",
