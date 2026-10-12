@@ -1,0 +1,13 @@
+<head>
+    <script>
+        function sendRequest() {
+            const name = document.getElementById("name").value;
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "https:localhost:3000");
+            xhr.send("name="+name);
+            xhr.onload = function () {
+                let response = ;
+            }
+        }
+    </script>
+</head>

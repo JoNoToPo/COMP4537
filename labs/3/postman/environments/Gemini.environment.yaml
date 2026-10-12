@@ -1,0 +1,4 @@
+name: Gemini
+values:
+  - key: GEMINI_API_KEY
+    value: ''
